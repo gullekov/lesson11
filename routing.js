@@ -4,9 +4,9 @@ const http = require('http')
     const url = req.url;
 
     if(url === '/about'){
-        res.write("Welcome us ABOUT PAGE")
+        res.write("<h1>Welcom to my ABOUT PAGE DEAR USER</h1>")
     }else if(url === '/contact'){
-        res.write("Welcome to CONTACT PAGE")
+        res.write('<h1>WELCOM to CONTACT PAGE MY borhers<h1/>')
     }
 
 
