@@ -1,11 +1,18 @@
 const http = require('http')
 
  const server = http.createServer((req,res)=>{
-    const pathName 
+    const url = req.url;
+
+    if(url === '/about'){
+        res.write("Welcome us ABOUT PAGE")
+    }else if(url === '/contact'){
+        res.write("Welcome to CONTACT PAGE")
+    }
 
 
 
-    res.end("Hello Node its me ")
+
+    res.end()
 })
 
 
