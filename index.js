@@ -11,7 +11,8 @@
 
 // yokardaky serveri 2000 protunda doretyar 
 
-const http = require('http')
+const http = require('http')= 
+const url = =
 
  const server = http.createServer((req,res)=>{
     res.end("Hello Node its me ")
