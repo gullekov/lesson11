@@ -1,0 +1,35 @@
+{
+  "user": {
+    "id": 101,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "age": 28,
+    "isActive": true,
+    "roles": ["admin", "editor"],
+    "profile": {
+      "bio": "Software developer with a passion for open source.",
+      "website": "https://johndoe.dev"
+    },
+    "createdAt": "2024-08-01T12:00:00Z",
+    "friends": [
+      {
+        "id": 102,
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com"
+      },
+      {
+        "id": 103,
+        "name": "Emily Johnson",
+        "email": "emily.johnson@example.com"
+      }
+    ]
+  },
+  "settings": {
+    "theme": "dark",
+    "notifications": {
+      "email": true,
+      "sms": false
+    },
+    "language": "en"
+  }
+}

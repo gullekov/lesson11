@@ -10,7 +10,7 @@ const server = http.createServer((req,res)=>{
     res.setHeader('Content-type', 'text/html')
     let pathName = res.url;
     fs.readFile('./view/index.html', (err,data)=>{
-        if(){
+        if(pathName === '/', ){
             console.log(err)
             res.end()
         }else{
